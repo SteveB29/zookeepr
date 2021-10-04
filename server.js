@@ -12,7 +12,6 @@ app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 const { animals } = require('./data/animals');
 
-
 const fs = require('fs');
 const path = require('path');
 
